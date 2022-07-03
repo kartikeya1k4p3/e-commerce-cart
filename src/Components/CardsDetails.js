@@ -8,7 +8,7 @@ import { DLT, ADD, REMOVE } from '../Redux/Actions/action';
 const CardsDetails = () => {
 
   const [data,setData] = useState([]);
-  // console.log(data);
+  console.log(data);
 
 
   const dispatch = useDispatch();
